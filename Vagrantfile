@@ -7,5 +7,6 @@ Vagrant.configure(2) do |config|
   config.vm.provision "ansible" do |ansible|
     ansible.verbose = "v"
     ansible.playbook = "play-jboss.yml"
+    ansible.limit = 'all,localhost'
   end
 end

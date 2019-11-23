@@ -1,10 +1,9 @@
 ---
 # Deploy a customized aJourney stack to a clustered layout.
 
-- name:           Deploy a local JBOSS standalone instance.
-  hosts:          localhost
-  become:         yes
-  become_method:  sudo
+- name:        Deploy a local JBOSS standalone instance.
+  hosts:       localhost
+  connection:  local
 
   roles:
   - jboss
