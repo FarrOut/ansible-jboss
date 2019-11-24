@@ -1,6 +1,0 @@
-- name: Download JBOSS
-  get_url:
-    url: https://gitlab.com/FarrOut/jboss-base/raw/master/jboss-eap-7.2.0.zip?inline=false
-    dest: ~/jboss-eap-7.2.0.zip
-    mode: '0750'
-    sha256sum: 657cbd07aa87dcf4dc4d8ceb0cdd6e4414a156a75cf14ce2b2a79ade36463482
